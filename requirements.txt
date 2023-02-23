@@ -1,0 +1,6 @@
+pypsa
+pandas
+hvplot
+holoviews
+snakemake
+highspy

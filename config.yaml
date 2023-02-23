@@ -1,0 +1,16 @@
+file: "https://tubcloud.tu-berlin.de/s/m73a6SGXEYAsiyY/download/network-assignment-5.nc"
+
+scenarios:
+  resolution:
+    # - 3
+    # - 4
+    - 6
+    - 12
+
+forbidden:
+  - 1.4.0.dev0
+
+solver_options:
+  solver: ipm
+  parallel: on
+  run_crossover: off
