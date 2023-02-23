@@ -4,7 +4,7 @@ from snakemake.remote.HTTP import RemoteProvider as HTTPRemoteProvider
 HTTP = HTTPRemoteProvider()
 
 def list_versions():
-    url = f"https://pypi.org/pypi/highspy/json"
+    url = "https://pypi.org/pypi/highspy/json"
     json = requests.get(url, timeout=5).json()['releases']
     versions = sorted(json, key=parse, reverse=True)
     return list(set(versions).difference(config['forbidden']))

@@ -12,5 +12,5 @@ n.snapshots = n.snapshots[::resolution]
 
 n.optimize(
     solver_name='highs',
-    **snakemake.config['solver_options']
+    # **snakemake.config['solver_options']
 )

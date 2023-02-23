@@ -18,11 +18,11 @@ df.index.names = ['resolution', 'highs_version']
 
 df.to_csv(snakemake.output.csv)
 
-opts = dict(fontscale=2, legend_position='top_left')
+opts = dict(fontscale=2, legend_position='top_right')
 
 common = dict(
-    height=500,
-    width=500,
+    height=600,
+    width=600,
     xlabel="n-hourly resolution",
 )
 
