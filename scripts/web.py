@@ -21,8 +21,8 @@ df.to_csv(snakemake.output.csv)
 opts = dict(fontscale=2, legend_position='top_left')
 
 common = dict(
-    height=800,
-    width=800,
+    height=500,
+    width=500,
     xlabel="n-hourly resolution",
 )
 

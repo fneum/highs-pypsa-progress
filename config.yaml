@@ -1,11 +1,13 @@
 file: "https://tubcloud.tu-berlin.de/s/m73a6SGXEYAsiyY/download/network-assignment-5.nc"
 
+trials: 1
+
 scenarios:
   resolution:
-    # - 3
-    # - 4
-    - 6
-    - 12
+    - 2
+    - 3
+    - 4
+    - 5
 
 forbidden:
   - 1.4.0.dev0
