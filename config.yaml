@@ -4,6 +4,7 @@ trials: 2
 
 scenarios:
   resolution:
+    - 1
     - 2
     - 3
     - 4
