@@ -23,6 +23,6 @@ repos:
     args: [--autofix, --indent, "2", --preserve-quotes]
 
 - repo: https://github.com/snakemake/snakefmt
-  rev: v0.8.1
+  rev: v0.8.2
   hooks:
   - id: snakefmt
