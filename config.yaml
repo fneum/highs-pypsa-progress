@@ -4,14 +4,14 @@ trials: 2
 
 scenarios:
   resolution:
-    - 1
-    - 2
-    - 3
-    - 4
-    - 5
+  - 1
+  - 2
+  - 3
+  - 4
+  - 5
 
 forbidden:
-  - 1.4.0.dev0
+- 1.4.0.dev0
 
 # solver_options:
 #   solver: ipm
