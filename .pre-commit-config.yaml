@@ -2,7 +2,7 @@ exclude: "^LICENSE"
 
 repos:
 - repo: https://github.com/pre-commit/pre-commit-hooks
-  rev: v4.4.0
+  rev: v4.6.0
   hooks:
   - id: check-merge-conflict
   - id: end-of-file-fixer
@@ -12,17 +12,17 @@ repos:
     args: ["--maxkb=2000"]
 
 - repo: https://github.com/psf/black
-  rev: 23.1.0
+  rev: 24.8.0
   hooks:
   - id: black
 
 - repo: https://github.com/macisamuele/language-formatters-pre-commit-hooks
-  rev: v2.7.0
+  rev: v2.14.0
   hooks:
   - id: pretty-format-yaml
     args: [--autofix, --indent, "2", --preserve-quotes]
 
 - repo: https://github.com/snakemake/snakefmt
-  rev: v0.8.1
+  rev: v0.10.2
   hooks:
   - id: snakefmt
